@@ -1,2 +1,3 @@
 FROM centos:8
-RUN yum install nginx -y
+RUN yum update -y
+RUN sudo dnf install nginx -y
