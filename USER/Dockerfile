@@ -1,4 +1,4 @@
 FROM almalinux:8
-RUN useraddd nginx
+RUN useradd nginx
 USER nginx
 RUN echo "hello" > /tmp/hello.txt
