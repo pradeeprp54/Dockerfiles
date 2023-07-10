@@ -2,4 +2,5 @@ ARG VERSION
 FROM almalinux:${VERSION:-8}
 #RUN echo "version value is :${VERSION}"
 ARG GREETING
+ENV GREET=${GREETING}
 RUN echo "${GREETING}"
